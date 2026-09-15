@@ -84,7 +84,7 @@ let DATA=null;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const money=n=>n==null?"":("$"+Number(n).toFixed(2));
-const dstr=iso=>{if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("en-US",{month:"numeric",day:"numeric",year:"2-digit"});};
+const dstr=iso=>{if(!iso)return"";const p=String(iso).slice(0,10).split("-");return (+p[1])+"/"+(+p[2])+"/"+p[0].slice(2);};
 const dtstr=iso=>{if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("en-US",{month:"numeric",day:"numeric"})+" "+d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});};
 function pillClass(s){
   s=(s||"").toLowerCase();
