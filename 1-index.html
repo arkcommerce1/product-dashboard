@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Dashboard - Ark Commerce</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#fff; --ink:#1e2329; --mut:#6b7280; --line:#e5e7eb;
+    --accent:#4573d2; --green:#0ca678; --yellow:#f0b429; --orange:#e8590c;
+    --blue:#339af0; --red:#e03131; --gray:#adb5bd; --purple:#9775fa;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:14px}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;gap:10px;position:sticky;top:0;z-index:20}
+  header h1{font-size:16px;margin:0;font-weight:650}
+  header .upd{margin-left:auto;color:var(--mut);font-size:12px;white-space:nowrap}
+  main{max-width:1200px;margin:0 auto;padding:14px}
+  a{color:var(--accent);text-decoration:none}
+  /* portfolio */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;cursor:pointer;transition:box-shadow .15s}
+  .card:hover{box-shadow:0 2px 10px rgba(0,0,0,.08)}
+  .card h2{font-size:15px;margin:0 0 8px}
+  .card .sub{color:var(--mut);font-size:12px;margin-top:8px}
+  .pills{display:flex;flex-wrap:wrap;gap:4px}
+  .pill{display:inline-block;padding:2px 8px;border-radius:99px;font-size:11px;font-weight:600;white-space:nowrap}
+  .p-blue{background:#d0ebff;color:#1864ab}.p-green{background:#d3f9d8;color:#087f5b}
+  .p-yellow{background:#fff3bf;color:#9c7a00}.p-orange{background:#ffe8cc;color:#d9480f}
+  .p-red{background:#ffe3e3;color:#c92a2a}.p-gray{background:#e9ecef;color:#495057}
+  .p-purple{background:#e5dbff;color:#5f3dc4}
+  .pill.off{opacity:.55;text-decoration:line-through}
+  #search{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;margin-bottom:12px;font-size:14px}
+  /* product */
+  .crumb{margin-bottom:10px;color:var(--mut);font-size:13px}
+  h2.sec{font-size:14px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin:22px 0 8px}
+  .wrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:10px}
+  table{border-collapse:collapse;width:100%;font-size:13px}
+  th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+  th{background:#fbfbfc;font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--mut)}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  tr.frow{cursor:pointer}
+  tr.frow:hover{background:#f4f7ff}
+  tr.inactive{opacity:.5}
+  .ms{background:#fff;border:1px solid var(--line);border-radius:10px;padding:6px 14px}
+  .ms div{padding:6px 0;border-bottom:1px solid var(--line)}
+  .ms div:last-child{border-bottom:0}
+  .ms .done{color:var(--mut)}
+  .links{display:flex;gap:14px;flex-wrap:wrap;margin:6px 0 0}
+  /* modal */
+  .overlay{position:fixed;inset:0;background:rgba(20,24,30,.45);display:none;z-index:40}
+  .overlay.on{display:block}
+  .modal{position:fixed;inset:0;display:none;z-index:50;overflow:auto;padding:20px 12px}
+  .modal.on{display:block}
+  .mbox{background:#fff;border-radius:12px;max-width:760px;margin:0 auto;padding:18px;box-shadow:0 12px 40px rgba(0,0,0,.25)}
+  .mbox h3{margin:0 0 2px;font-size:17px}
+  .mclose{float:right;border:1px solid var(--line);background:#fff;border-radius:8px;padding:4px 10px;cursor:pointer;font-size:13px}
+  .kv{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0;font-size:13px}
+  .kv b{color:var(--mut);font-weight:600;margin-right:4px}
+  .log{border-top:1px solid var(--line);margin-top:12px;padding-top:8px}
+  .logitem{padding:8px 0;border-bottom:1px solid var(--line)}
+  .logitem .when{color:var(--mut);font-size:12px;font-weight:600}
+  .logitem .who{color:var(--mut);font-size:12px}
+  details{margin:6px 0}
+  summary{cursor:pointer;color:var(--accent);font-size:13px}
+  .filesum{white-space:pre-wrap;font-size:12.5px;color:#374151;background:#f8f9fa;border:1px solid var(--line);border-radius:8px;padding:10px;margin-top:6px}
+  .badge{font-size:11px;padding:2px 7px;border-radius:6px;background:#e7f5ff;color:#1c7ed6;font-weight:600}
+  .empty{color:var(--mut);font-style:italic;padding:10px}
+  .profit-pos{color:var(--green);font-weight:650}
+  .profit-neg{color:var(--red);font-weight:650}
+  @media (max-width:640px){ th,td{padding:6px 7px} main{padding:10px} }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="htitle">Product Dashboard</h1>
+  <span class="upd" id="upd"></span>
+</header>
+<main id="app"><div class="empty">Loading...</div></main>
+<div class="overlay" id="overlay" onclick="closeModal()"></div>
+<div class="modal" id="modal"><div class="mbox" id="mbox"></div></div>
+<script>
+let DATA=null;
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const money=n=>n==null?"":("$"+Number(n).toFixed(2));
+const dstr=iso=>{if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("en-US",{month:"numeric",day:"numeric",year:"2-digit"});};
+const dtstr=iso=>{if(!iso)return"";const d=new Date(iso);return d.toLocaleDateString("en-US",{month:"numeric",day:"numeric"})+" "+d.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"});};
+function pillClass(s){
+  s=(s||"").toLowerCase();
+  if(!s)return"p-gray";
+  if(s.includes("qc confirmed"))return"p-blue";
+  if(s.startsWith("received"))return"p-green";
+  if(s==="requested")return"p-yellow";
+  if(s.includes("need to request")||s.includes("ready to request"))return"p-orange";
+  if(s.includes("transit"))return"p-purple";
+  if(s.includes("not requested"))return"p-red";
+  return"p-gray";
+}
+const pill=s=>s?`<span class="pill ${pillClass(s)}">${esc(s)}</span>`:`<span class="pill p-gray">-</span>`;
+
+fetch("data.json?v="+Date.now()).then(r=>r.json()).then(d=>{DATA=d;
+  $("#upd").textContent="Updated "+dtstr(d.updated_at);
+  route();});
+window.addEventListener("hashchange",route);
+
+function route(){
+  const h=location.hash;
+  const m=h.match(/^#\/product\/([a-z0-9-]+)/);
+  if(m){const p=DATA.products.find(x=>x.slug===m[1]);if(p)return renderProduct(p);}
+  renderPortfolio();
+}
+
+function renderPortfolio(){
+  $("#htitle").textContent="Product Dashboard";
+  let html=`<input id="search" placeholder="Search products or factories..." oninput="filterCards()"><div class="grid" id="cards">`;
+  for(const p of DATA.products){
+    const act=p.factories.filter(f=>f.active), inact=p.factories.filter(f=>!f.active);
+    const lastComm=p.factories.map(f=>f.last_communication).filter(Boolean).sort().pop()||"";
+    const sCounts={};for(const f of act){if(f.sample_status)sCounts[f.sample_status]=(sCounts[f.sample_status]||0)+1;}
+    const pills=Object.entries(sCounts).map(([s,n])=>`<span class="pill ${pillClass(s)}">${n} ${esc(s)}</span>`).join("");
+    html+=`<div class="card" data-name="${esc((p.name+" "+p.factories.map(f=>f.name).join(" ")).toLowerCase())}" onclick="location.hash='#/product/${p.slug}'">
+      <h2>${esc(p.name)}</h2>
+      <div class="pills">${pills||'<span class="pill p-gray">no factory statuses yet</span>'}</div>
+      <div class="sub">${act.length} active factor${act.length===1?"y":"ies"}${inact.length?` · ${inact.length} inactive`:""}${lastComm?` · last comm ${dstr(lastComm)}`:""}</div>
+    </div>`;
+  }
+  html+="</div>";
+  $("#app").innerHTML=html;
+}
+function filterCards(){
+  const q=$("#search").value.toLowerCase();
+  document.querySelectorAll("#cards .card").forEach(c=>{c.style.display=c.dataset.name.includes(q)?"":"none";});
+}
+
+function renderProduct(p){
+  $("#htitle").textContent=p.name;
+  let html=`<div class="crumb"><a href="#">&larr; All products</a></div>
+  <div class="links">
+    ${p.spec_sheet?`<a href="${esc(p.spec_sheet)}" target="_blank">Spec Google Sheet &nearr;</a>`:""}
+    ${p.product_link?`<a href="${esc(p.product_link)}" target="_blank">Amazon product &nearr;</a>`:""}
+  </div>`;
+  // milestones
+  if(p.milestones.length){
+    html+=`<h2 class="sec">Process</h2><div class="ms">`+p.milestones.map(m=>
+      `<div class="${m.done?"done":""}">${m.done?"✅":"⬜"} ${esc(m.name)}${m.notes?` <span style="color:var(--mut)">- ${esc(m.notes)}</span>`:""}</div>`).join("")+`</div>`;
+  }
+  // spec
+  if(p.skus.length){
+    html+=`<h2 class="sec">Spec - SKUs</h2><div class="wrap"><table><tr><th>SKU</th><th>Size</th><th class="num">Pack size</th><th class="num">Order units</th><th>Material</th><th>Packaging</th></tr>`;
+    for(const s of p.skus)html+=`<tr><td><b>${esc(s.sku)}</b></td><td>${esc(s.size)}</td><td class="num">${s.pack_size}</td><td class="num">${s.order_units}</td><td>${esc(s.material)}</td><td>${esc(s.packaging)}</td></tr>`;
+    html+=`</table></div>`;
+  }
+  // profitability
+  if(p.profitability.length){
+    html+=`<h2 class="sec">Profitability (per unit)</h2><div class="wrap"><table><tr>
+      <th>SKU</th><th>Size</th><th class="num">Count</th><th class="num">Cost/pc</th><th class="num">Monthly sales</th><th class="num">Price</th>
+      <th class="num">Referral</th><th class="num">FBA</th><th class="num">Factory</th><th class="num">Duties</th><th class="num">Shipping</th><th class="num">PPC</th>
+      <th class="num">Profit/unit</th><th class="num">Margin</th><th class="num">Monthly profit</th></tr>`;
+    for(const r of p.profitability){
+      const costs=(r.referral_fee||0)+(r.fba_fee||0)+(r.factory_cost||0)+(r.duties_tariffs||0)+(r.shipping||0)+(r.storage||0)+(r.ppc||0);
+      const pu=(r.price||0)-costs, mg=r.price?pu/r.price*100:0, mp=pu*(r.monthly_sales||0);
+      html+=`<tr><td><b>${esc(r.sku)}</b></td><td>${esc(r.size)}</td><td class="num">${r.count}</td><td class="num">${money(r.cost_per_pc)}</td>
+      <td class="num">${r.monthly_sales}</td><td class="num">${money(r.price)}</td><td class="num">${money(r.referral_fee)}</td><td class="num">${money(r.fba_fee)}</td>
+      <td class="num">${money(r.factory_cost)}</td><td class="num">${money(r.duties_tariffs)}</td><td class="num">${money(r.shipping)}</td><td class="num">${money(r.ppc)}</td>
+      <td class="num ${pu>=0?"profit-pos":"profit-neg"}">${money(pu)}</td><td class="num ${pu>=0?"profit-pos":"profit-neg"}">${mg.toFixed(0)}%</td>
+      <td class="num ${mp>=0?"profit-pos":"profit-neg"}">$${mp.toLocaleString("en-US",{maximumFractionDigits:0})}</td></tr>`;
+    }
+    html+=`</table></div>`;
+  }
+  // reminders
+  const rems=[];for(const f of p.factories)for(const r of (f.reminders||[]))rems.push({f:f.name,...r});
+  if(rems.length){
+    html+=`<h2 class="sec">Reminders</h2><div class="ms">`+rems.map(r=>`<div>⏰ <b>${esc(r.date)}</b> ${esc(r.text)} <span style="color:var(--mut)">(${esc(r.f)})</span></div>`).join("")+`</div>`;
+  }
+  // factories
+  html+=`<h2 class="sec">Factories (${p.factories.filter(f=>f.active).length} active / ${p.factories.length} total)</h2>`;
+  if(!p.factories.length){html+=`<div class="empty">No factories yet.</div>`;}
+  else{
+    html+=`<div class="wrap"><table><tr><th>Factory</th><th>Sample status</th><th>Quote status</th><th>Last comm</th><th>Notes</th><th></th></tr>`;
+    p.factories.forEach((f,i)=>{
+      html+=`<tr class="frow ${f.active?"":"inactive"}" onclick="openFactory('${p.slug}',${i})">
+        <td><b>${esc(f.name)}</b>${f.active?"":' <span class="badge" style="background:#e9ecef;color:#868e96">inactive</span>'}</td>
+        <td>${pill(f.sample_status)}</td><td>${pill(f.quote_status)}</td>
+        <td>${dstr(f.last_communication)}</td><td style="max-width:280px;overflow:hidden;text-overflow:ellipsis">${esc(f.notes)}</td>
+        <td>&rsaquo;</td></tr>`;
+    });
+    html+=`</table></div>`;
+  }
+  $("#app").innerHTML=html;
+}
+
+function openFactory(slug,idx){
+  const p=DATA.products.find(x=>x.slug===slug);const f=p.factories[idx];
+  let log=(f.log||[]).slice().sort((a,b)=>b.at.localeCompare(a.at));
+  $("#mbox").innerHTML=`<button class="mclose" onclick="closeModal()">Close</button>
+    <h3>${esc(f.name)}</h3>
+    <div style="color:var(--mut);font-size:12px">${esc(p.name)} ${f.active?"":'· <b>INACTIVE</b>'}</div>
+    <div class="kv">
+      <span><b>Sample</b> ${pill(f.sample_status)}</span>
+      <span><b>Quote</b> ${pill(f.quote_status)}</span>
+      <span><b>Last comm</b> ${dstr(f.last_communication)||"-"}</span>
+    </div>
+    ${f.notes?`<div class="kv"><span><b>Notes</b> ${esc(f.notes)}</span></div>`:""}
+    ${(f.reminders||[]).length?`<div class="kv">${f.reminders.map(r=>`<span>⏰ <b>${esc(r.date)}</b> ${esc(r.text)}</span>`).join("")}</div>`:""}
+    ${(f.files||[]).map(fl=>fl.url?`<div><a href="${esc(fl.url)}" target="_blank">${esc(fl.name)} &nearr;</a></div>`:`<details><summary>${esc(fl.name)}</summary><div class="filesum">${esc(fl.summary||"")}</div></details>`).join("")}
+    <div class="log"><h2 class="sec" style="margin-top:6px">Comment log</h2>
+      ${log.length?log.map(c=>`<div class="logitem"><span class="when">${dtstr(c.at)}</span> <span class="who">${esc(c.by)}</span><br>${esc(c.text)}</div>`).join(""):`<div class="empty">No comments yet - new updates get timestamped automatically when added.</div>`}
+    </div>`;
+  $("#overlay").classList.add("on");$("#modal").classList.add("on");
+}
+function closeModal(){$("#overlay").classList.remove("on");$("#modal").classList.remove("on");}
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+</script>
+</body>
+</html>

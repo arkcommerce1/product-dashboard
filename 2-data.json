@@ -1,0 +1,1639 @@
+{
+ "updated_at": "2026-09-15T02:22:09Z",
+ "source": "Seeded from Asana export 2026-09-14 (everlastingicerx.com org)",
+ "products": [
+  {
+   "slug": "clear-safety-glass",
+   "name": "Clear Safety Glass",
+   "product_link": "https://www.amazon.com/dp/B0BGSFQJF6?th=1",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1wcilVc0Snew4_8QAIRpqlQrCXGywW-53Oc_EsxRo_e4/edit?gid=0#gid=0",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Check duty and tariff rates",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": "8/5 Check comment"
+    },
+    {
+     "name": "Finding Factories in Taiwan - reached out to Tawian trade center they said will send us list of factories",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    },
+    {
+     "name": "Confirming Color Box for final price",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "RaiseWings TW",
+     "active": true,
+     "sample_status": "In transit to Yiwu",
+     "quote_status": "Received Confirmed price",
+     "last_communication": "2026-08-07",
+     "notes": "8/12 They met our target price, waiting on samples",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Two image attachments (image.png):\n\n    Email screenshot (1134x464 pixels, Asset:1217337339994792): Email from Che Chang, Project Manager at Taiwan Trade Center, New York (TTCNY, NY0003@taitra.org.tw). Confirms meeting with Raise Wings' sales representative Charlotte scheduled for August 10th at 9:00 PM EST. Contact: (212) 904-1677 ext. 103, One Penn Plaza, Suite 1533, New York, NY 10119.\n    \n    Quote screenshot (1200x202 pixels, Asset:1217390571135269): Pricing quote shared by Haim. Price: USD 0.26/pc based on standard packaging (1 pc/polybag, 12 pcs/inner box, 25 inner boxes/CTN). Custom packaging or logo printing available at additional cost.\n\nKey points:\n\n    Meeting date: August 10th at 9:00 PM EST\n    Participants: Haim, Charlotte (Raise Wings sales), Che Chang (TTCNY)\n    Product pricing: $0.26/pc with standard packaging\n    Custom packaging/logo printing incurs additional costs\n\nRecommended collaborators: Charlotte from Raise Wings, haim@everlastingicerx.com (already a collaborator)"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Polly",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-11",
+     "notes": "8/6 gave them target price at 0.27 pc",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Two attachments - Email and messaging correspondence:\n\n    Email image (1600x773px): Initial response from Polly at Tonshung Eyewear regarding safety glasses inquiry. Contact: Polly (chingiu@tonshung.com, +886-6-2437291 #135); Company: TONSHUNG TECHNOLOGY CO., LTD. (Taiwan-based sales representative); Website: http://www.tonshung.com; Requesting preferred style/photo reference to recommend suitable models; Original inquiry from Haim Setton sent August 1, 2026; Response received August 3, 2026; Company certifications shown (Sedex, FDA, CE, etc.)\n    \n    WeChat message screenshot (936x268px): Follow-up from PollyTW on Tuesday 11:45 to Haim Setton confirming quotation was sent last week, checking if received successfully, and offering to answer questions.\n\nKey dates: Initial contact Aug 1, response Aug 3, quote sent by Aug 6, follow-up Aug 13, 2026\nRecommended collaborator: Haim (haim@allsetthealth.com) as primary contact"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Shu Gie / Nick",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Requested",
+     "last_communication": "2026-08-05",
+     "notes": "8/6 Whatsapp he is rechecking the price",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image attachment (1600x793 pixels): Email from Shugie-Sherry regarding safety glasses inquiry. Key Points: Response from Shu Gie Industrial Co., Ltd, a professional safety glasses manufacturer with 40 years of experience in Taiwan; Company offers superior quality products at reasonable prices with worldwide customer base; Website provided: http://www.shugie.com.tw for reviewing profiles and products; Next steps: Need to specify which models and quantities to order; WhatsApp contact available (contact name: Nick); Contact: Nick Tang (Attn: Sherry). Recommended Collaborators: haim@everlastingicerx.com (already mentioned in the comment as needing to schedule a meeting)."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Fu Sheng",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-01",
+     "notes": "8/5 Email sent; Taitra will intro us to them via online meet",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Mitch Alan",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-01",
+     "notes": "8/5 Email sent; No response",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Ho Cheng info@hc-safety.com",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-01",
+     "notes": "8/5 - Email sent no response",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Hank",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-06",
+     "notes": "8/6 one last push",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Two attachments: (1) PDF Quotation - 'Hank safety glass quote.pdf' from GRANVIS Optical Co., Ltd. dated July 31, 2026. Quote for UV400 PC clear lens safety glasses meeting ANSI Z87.1 standards with anti-scratch and impact resistance. Two pricing options for 50,000 units: $0.397/pc (12pcs/box) and $0.476/pc (3pcs/box). Payment: T/T 100% before shipment. Production lead time: 60 days. Quote validity: August 31, 2026. FOB Kaohsiung terms. Seller: Hank Chuang (GRANVIS Optical), Buyer: Haim Setton (All Sett Health). (2) Image - Screenshot of message from Hank Chuang thanking for inquiry and explaining their competitive pricing for safety eyewear supplied to brands like Univet and Nocry, and e-commerce platforms like Amazon and Walmart. Notes their factory capabilities and testing equipment for safety glasses compliance. Key collaborators: Hank Chuang (GRANVIS Optical), Haim Setton. Important deadline: Quote expires August 31, 2026."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Jane",
+     "active": false,
+     "sample_status": "Received YIWU",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-04",
+     "notes": "8/6 On hold we are discussing with Taiwan Factories",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Vivian",
+     "active": false,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-04",
+     "notes": "8/6 On hold we are discussing with Taiwan Factories",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "PDF document: \"Vivian safety glass 04082026 quote.pdf\" - Contains product images showing three different safety glass styles: clear/transparent safety glasses, black/dark tinted safety glasses, and yellow-tinted safety glasses. All appear to be wraparound style protective eyewear with side shields. This is a quote document dated 08/04/2026 for safety glass products."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Allen",
+     "active": false,
+     "sample_status": "Received YIWU",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-05",
+     "notes": "8/6 On hold we are discussing with Taiwan Factories",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image attachment (WhatsApp Image 2026-08-05 at 11.13.00 AM.jpeg): Product packaging for Hardline Workwear Safety Glasses - Clear Lens, 3-pack. Features include impact resistant, UV protection, lightweight comfort, one-piece lens design, and one size fits most."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Doris",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-01",
+     "notes": "8/5 Only want to discuss on email they dont follow instructions dropped",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Winnie",
+     "active": false,
+     "sample_status": "Received YIWU",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-04",
+     "notes": "Price didnt make sense - not willing to coperate",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Erica",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Requested",
+     "last_communication": "2026-07-31",
+     "notes": "Found out shees a trading company she wont give us a price because we found the factory",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image attachment (image.png, 964x317px) labeled 'quote' - Shows pricing conversation with Erica Lee. Key points: Price quote for clear safety glass with UV400 & Anti-scratch features - US$0.49/pc for 50,000 units, US$0.474/pc for orders above 100,000 units. Erica acknowledges pricing may not be competitive but emphasizes quality. No specific due dates mentioned. Current collaborators (Decemie Cortes, haim@everlastingicerx.com) are appropriate for this quote review."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Ariel",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-31",
+     "notes": "7/31 Specs he shared was reviewed by Haim, and we're not using them",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "container-silica-gel",
+   "name": "Container Silica Gel",
+   "product_link": "https://www.amazon.com/dp/B0F6L7PS6X?th=1",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1sXOTNNH7nQ69_NCHRb_F_M0dp7axWIU_5DL-4QxjDS0/edit?gid=1676732948#gid=1676732948",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Ask Yuki to find three raw material suppliers or relevant factories for this product",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Renegotiate 10 LB",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    },
+    {
+     "name": "Find out pricing if we open our own mold",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    },
+    {
+     "name": "Payment Terms",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    },
+    {
+     "name": "Artwork - Request dieline for each size",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Oliver",
+     "active": true,
+     "sample_status": "Received NY",
+     "quote_status": "Received Waiting to Compare",
+     "last_communication": "2026-08-10",
+     "notes": "8/25 Question about Jars white not transparent",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "PDF Quote from FYD Industrial (Ningbo) for Silica Gel Desiccant Beads dated August 12, 2026. Quote includes three product sizes: 2LB ($2.00/unit, 8,000 units), 5LB ($4.43/unit, 2,000 units), and 10LB ($9.20/unit, 1,800 units) for a total of $41,420. Payment terms: 30% deposit, 70% after inspection. Lead time: 20-25 days for first order. Sample available in 7 days (buyer pays freight). Contact: Oliver Chen (Sales Manager), WhatsApp/WeChat: 86 13486050691. PDF includes images of factory facilities (9500m\u00b2 area, 85 staff), production equipment, packaging machinery, quality control lab, warehouse with palletized inventory, loaded shipping containers, fabric samples, and product dimension specifications. Sample Images (2 photos): Show physical samples of container bottles in pink and white colors, displaying different size options for the silica gel desiccant products."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Rushan",
+     "active": true,
+     "sample_status": "Received YIWU",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-06",
+     "notes": "8/25 checking if they can match pricing with updated size",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Three attachments:\n\n    Chat conversation screenshot (2278x1127px): Detailed sample request discussion with supplier Wufeng including:        Indicating beads: 150g blue (2-4mm), 150g orange (2-4mm), loose in bag\n        Containers: 1 of each size (can be empty)\n        Sachets: AIHUA paper (1g, 2g, 5g) and Non-woven (20g, 50g, 100g) - 4 pcs each\n        Delivery location: Yiwu office\n        Note about potential charges and preference to discuss order\n\n    Follow-up chat screenshot (2233x416px): Supplier response confirming colleague is checking the request\n    \n    Photo of received samples (1280x1707px): Image showing various silica gel samples from Rushan Wufeng Silica Gel Co., Ltd including:        AIHUA paper sachets (1g, 2g, 5g)\n        Non-woven sachets (20g, 50g, 100g)\n        Orange silica gel bag\n        Multiple DMF-free silica gel packets labeled \"DO NOT EAT/THROW AWAY DESICCANT\"\n\n\nKey collaborators: Wufeng (supplier contact), Haim Setton\nDelivery dependency: Samples sent to Yiwu office via Alipay (received Aug 21, 2026)"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Eva",
+     "active": true,
+     "sample_status": "In Transit to NY",
+     "quote_status": "Need to Request",
+     "last_communication": "2026-08-04",
+     "notes": "8/25 Not needed price was high",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image attachment (WhatsApp Image 2026-08-12 at 3.23.44 AM.jpeg): Shows product samples of Eva Dry silica gel containers in transit. The image displays pink/light-colored containers in plastic packaging with product labels and yellow instruction cards. This relates to the comment from Decemie Cortes on Aug 11 stating \"Haim asked Yuki to send samples to NY\" and the current Sample Status of \"In Transit to NY\"."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Kyle",
+     "active": false,
+     "sample_status": "Requested",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-10",
+     "notes": "8/13 Waiting on pricing - asked about mold",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Tina",
+     "active": false,
+     "sample_status": "Requested",
+     "quote_status": "Requested",
+     "last_communication": "2026-08-06",
+     "notes": "8/12 Sent target price",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Sabrina",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-03",
+     "notes": "8/12 inactive for this product pricing not comp",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "PDF Document: \"Sabrina quote for silica gel in containers.pdf\" - Contains supplier quote information including: company branding from Chinese manufacturer, factory production facility photos showing manufacturing equipment and quality control processes, product images of white plastic containers/jugs with handles and screw-top caps (appear to be the containers for silica gel), and photos of orange/amber colored silica gel material in round dishes. This quote document is from the supplier Sabrina regarding silica gel container products for the Container Silica Gel project. Additionally, 2 images were posted in comments on Aug 3 2026 by haim@everlastingicerx.com showing additional product or quote details."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Robin",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Requested",
+     "last_communication": "2026-08-06",
+     "notes": "8/12 They said they aren't competitive for this product",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Joy",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received Waiting to Compare",
+     "last_communication": "2026-08-06",
+     "notes": "8/6 Introd waiting for there reply - followed up",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Two image attachments with quotations from Joy for silica gel jars:\n\n    Initial quotation (image.png): FOB pricing - 2LB jar: USD 4.25/jar, 5LB jar: USD 10.43/jar, 10LB jar: USD 20.76/jar. Orange and blue variants same price. Prices include jars, cartons, and stickers. Supplier offers samples and CIF pricing upon request.\n    \n    Updated pricing table (20f7fc5a8545381b0bd95ba12646c1da.png): Detailed specifications with slight adjustments - 2LB: USD 4.21/jar (8000 jars, total FOB $33,680, 445 cartons), 5LB: USD 10.20/jar (2000 jars, total FOB $20,400, 250 cartons), 10LB: USD 20.10/jar (1800 jars, total FOB $36,180, 900 cartons). Includes jar dimensions, weights per jar, and jars per carton. All FOB prices include beads, jars, stickers, cartons, freight to loading port, and loading port fees.\n"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Amber",
+     "active": false,
+     "sample_status": "Requested",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-04",
+     "notes": "08/3 Sent info but they arent serious",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "MEG - Shandong Sinchem Silica Gel Co., Ltd",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-04",
+     "notes": "8/4 said they can't pack this type; and can't find a fty that offers this ",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "diaper-pail-refill-bags",
+   "name": "Diaper Pail Refill Bags",
+   "product_link": "https://www.amazon.com/Diaper-Pail-Refill-Refill%EF%BC%8CCompatible-Technology/dp/B0F3J11RW8?th=1",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1j0I1mCXCbCLJy1_9xZAZswGOmR-h6HrOAFMHP-wuZFk/edit?gid=0#gid=0",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Check duty and tariff rates",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "3923.21.0095 \u2013 3% duty + 12.5% Section 301 (9903.88.69 exclusion for China's Section 301)"
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Ella",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-09",
+     "notes": "9/2 requested",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Ada",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-09",
+     "notes": "9/2 requested",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Jane",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-09",
+     "notes": "9/2 requested",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY D",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY E",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY F",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY G",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "disposable-silica-gel",
+   "name": "Disposable Silica Gel",
+   "product_link": "https://www.amazon.com/dp/B0CY8HM7HR?th=1",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/15aQBAwm_qIvCVnrYbXZ_n6YSJzA6M-JNZcCt-TT9zb4/edit?gid=1131925518#gid=1131925518",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Need to send Samples again to China",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": "8/24 Sent samples to China"
+    }
+   ],
+   "skus": [
+    {
+     "sku": "MB-1801",
+     "size": "1g",
+     "pack_size": 100,
+     "order_units": 550,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1802",
+     "size": "2g",
+     "pack_size": 50,
+     "order_units": 400,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1803",
+     "size": "2g",
+     "pack_size": 100,
+     "order_units": 150,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1804",
+     "size": "5g",
+     "pack_size": 20,
+     "order_units": 650,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1805",
+     "size": "5g",
+     "pack_size": 50,
+     "order_units": 6500,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1806",
+     "size": "5g",
+     "pack_size": 100,
+     "order_units": 350,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1807",
+     "size": "5g",
+     "pack_size": 200,
+     "order_units": 75,
+     "material": "AIHUA Paper",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1808",
+     "size": "20g",
+     "pack_size": 20,
+     "order_units": 500,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1809",
+     "size": "20g",
+     "pack_size": 50,
+     "order_units": 500,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1810",
+     "size": "20g",
+     "pack_size": 100,
+     "order_units": 75,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1811",
+     "size": "50g",
+     "pack_size": 5,
+     "order_units": 75,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1812",
+     "size": "50g",
+     "pack_size": 10,
+     "order_units": 50,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1813",
+     "size": "50g",
+     "pack_size": 20,
+     "order_units": 75,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1814",
+     "size": "50g",
+     "pack_size": 50,
+     "order_units": 50,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1815",
+     "size": "100g",
+     "pack_size": 5,
+     "order_units": 50,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    },
+    {
+     "sku": "MB-1816",
+     "size": "100g",
+     "pack_size": 10,
+     "order_units": 50,
+     "material": "Non Woven Tyvek",
+     "packaging": "Color Bag"
+    }
+   ],
+   "profitability": [
+    {
+     "sku": "MB-1801",
+     "size": "1g",
+     "count": 100,
+     "cost_per_pc": 0.0,
+     "monthly_sales": 800,
+     "price": 11.97,
+     "referral_fee": 1.8,
+     "fba_fee": 3.13,
+     "factory_cost": 0.32,
+     "duties_tariffs": 0.13,
+     "shipping": 0.13,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1802",
+     "size": "2g",
+     "count": 50,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 600,
+     "price": 9.97,
+     "referral_fee": 1.5,
+     "fba_fee": 4.22,
+     "factory_cost": 0.32,
+     "duties_tariffs": 0.13,
+     "shipping": 0.13,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1803",
+     "size": "2g",
+     "count": 100,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 200,
+     "price": 11.97,
+     "referral_fee": 1.8,
+     "fba_fee": 3.78,
+     "factory_cost": 0.63,
+     "duties_tariffs": 0.25,
+     "shipping": 0.25,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1804",
+     "size": "5g",
+     "count": 20,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 1000,
+     "price": 8.97,
+     "referral_fee": 1.35,
+     "fba_fee": 2.43,
+     "factory_cost": 0.28,
+     "duties_tariffs": 0.11,
+     "shipping": 0.11,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1805",
+     "size": "5g",
+     "count": 50,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 10000,
+     "price": 11.95,
+     "referral_fee": 1.79,
+     "fba_fee": 2.43,
+     "factory_cost": 0.67,
+     "duties_tariffs": 0.27,
+     "shipping": 0.27,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1806",
+     "size": "5g",
+     "count": 100,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 500,
+     "price": 17.97,
+     "referral_fee": 2.7,
+     "fba_fee": 5.04,
+     "factory_cost": 1.34,
+     "duties_tariffs": 0.54,
+     "shipping": 0.54,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1807",
+     "size": "5g",
+     "count": 200,
+     "cost_per_pc": 0.01,
+     "monthly_sales": 100,
+     "price": 25.97,
+     "referral_fee": 3.9,
+     "fba_fee": 6.1,
+     "factory_cost": 2.77,
+     "duties_tariffs": 1.11,
+     "shipping": 1.11,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1808",
+     "size": "20g",
+     "count": 20,
+     "cost_per_pc": 0.06,
+     "monthly_sales": 300,
+     "price": 15.97,
+     "referral_fee": 2.4,
+     "fba_fee": 5.57,
+     "factory_cost": 1.13,
+     "duties_tariffs": 0.45,
+     "shipping": 0.45,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1809",
+     "size": "20g",
+     "count": 50,
+     "cost_per_pc": 0.06,
+     "monthly_sales": 700,
+     "price": 23.97,
+     "referral_fee": 3.6,
+     "fba_fee": 4.6,
+     "factory_cost": 2.8,
+     "duties_tariffs": 1.12,
+     "shipping": 1.12,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1810",
+     "size": "20g",
+     "count": 100,
+     "cost_per_pc": 0.06,
+     "monthly_sales": 100,
+     "price": 30.97,
+     "referral_fee": 4.65,
+     "fba_fee": 7.21,
+     "factory_cost": 5.6,
+     "duties_tariffs": 2.24,
+     "shipping": 2.24,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1811",
+     "size": "50g",
+     "count": 5,
+     "cost_per_pc": 0.14,
+     "monthly_sales": 100,
+     "price": 8.97,
+     "referral_fee": 1.35,
+     "fba_fee": 3.78,
+     "factory_cost": 0.69,
+     "duties_tariffs": 0.28,
+     "shipping": 0.28,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1812",
+     "size": "50g",
+     "count": 10,
+     "cost_per_pc": 0.14,
+     "monthly_sales": 50,
+     "price": 16.97,
+     "referral_fee": 2.55,
+     "fba_fee": 5.04,
+     "factory_cost": 1.38,
+     "duties_tariffs": 0.55,
+     "shipping": 0.55,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1813",
+     "size": "50g",
+     "count": 20,
+     "cost_per_pc": 0.14,
+     "monthly_sales": 100,
+     "price": 20.97,
+     "referral_fee": 3.15,
+     "fba_fee": 7.05,
+     "factory_cost": 2.76,
+     "duties_tariffs": 1.1,
+     "shipping": 1.1,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1814",
+     "size": "50g",
+     "count": 50,
+     "cost_per_pc": 0.14,
+     "monthly_sales": 50,
+     "price": 31.97,
+     "referral_fee": 4.8,
+     "fba_fee": 5.04,
+     "factory_cost": 6.82,
+     "duties_tariffs": 2.73,
+     "shipping": 2.73,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1815",
+     "size": "100g",
+     "count": 5,
+     "cost_per_pc": 0.28,
+     "monthly_sales": 50,
+     "price": 14.97,
+     "referral_fee": 2.25,
+     "fba_fee": 5.04,
+     "factory_cost": 1.39,
+     "duties_tariffs": 0.56,
+     "shipping": 0.56,
+     "ppc": 1.0,
+     "storage": null
+    },
+    {
+     "sku": "MB-1816",
+     "size": "100g",
+     "count": 10,
+     "cost_per_pc": 0.28,
+     "monthly_sales": 50,
+     "price": 19.97,
+     "referral_fee": 3.0,
+     "fba_fee": 6.1,
+     "factory_cost": 2.78,
+     "duties_tariffs": 1.11,
+     "shipping": 1.11,
+     "ppc": 1.0,
+     "storage": null
+    }
+   ],
+   "factories": [
+    {
+     "name": "Oliver",
+     "active": true,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-31",
+     "notes": "9/14 we sent samples they are copying",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Rushan",
+     "active": true,
+     "sample_status": "Requested",
+     "quote_status": "Requested",
+     "last_communication": "2026-07-31",
+     "notes": "9/14 asked for update",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Absorb King - Robin",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-24",
+     "notes": "9/14 They are working on it sending today",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Tina",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Requested",
+     "last_communication": "2026-07-31",
+     "notes": "8/5 - Will request samples",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Sabrina/Mia",
+     "active": true,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-31",
+     "notes": "8/5 resending us prices",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image (664x298 pixels): Shows 4 silica gel sample packets in plastic packaging with a 'W' logo and Chinese text. The packets are labeled as 'SAMPLE' and appear to be from a supplier. Context: Haim requested these samples be sent to NY (per comment from Decemie Cortes on Aug 11, 2026)."
+      }
+     ],
+     "log": [
+      {
+       "at": "2026-08-11T19:31:04.906Z",
+       "by": "Decemie Cortes",
+       "text": "Haim asked Yuki to send the samples to NY\n\nhttps://app.asana.com/app/asana/-/get_asset?asset_id=1217381848402540"
+      }
+     ]
+    },
+    {
+     "name": "Amber",
+     "active": true,
+     "sample_status": "Requested",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-05",
+     "notes": "8/5 Followed up",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Eva",
+     "active": false,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-04",
+     "notes": "8/3 Dont see interest moving on",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "dry-ice-pack",
+   "name": "Dry Ice Pack",
+   "product_link": "",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/10ZGIWsIIIbP6Aj4X3svwe0hnO4VaugsIkaId-FXO-bo/edit?gid=0#gid=0",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Intco",
+     "active": true,
+     "sample_status": "Received NY",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-08-03",
+     "notes": "8/5 Sample box in car need to get it",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Lindsey",
+     "active": false,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received Waiting to Compare",
+     "last_communication": "2026-08-04",
+     "notes": "8/5 her price wasnt good we will order from Intco",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image attachment (screenshot of messaging conversation): Shows pricing quote from supplier 'susan and lindsey Yishun' for dry ice pack products. Key details: 24-grid style at $0.28/pc (MOQ 50,000 pcs), 12-grid style at $0.2/pc (MOQ 10,000 pcs), printing mould cost $100/color for both styles. Supplier notes this is 'the cheapest price' with 'simple opp bag packaging'. Conversation includes response from Haim Setton indicating follow-up needed."
+      }
+     ],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "ear-plugs",
+   "name": "Ear Plugs",
+   "product_link": "https://www.amazon.com/dp/B0FN43SBTX",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1qVAd9D9TeiPdBfQikVJT_icm2XbyaSYIaB2LLXNAzjg/edit?gid=0#gid=0",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Update Quantity Sent",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "Completed"
+    },
+    {
+     "name": "Working on box QTY MOQ",
+     "done": true,
+     "assignee": "",
+     "notes": "Completed"
+    },
+    {
+     "name": "Negotiate payment terms - 20% deposit 80% against TLX release",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "Completed"
+    },
+    {
+     "name": "Send Deposit",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "Completed"
+    },
+    {
+     "name": "ANSI Certificate to our company",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "In Progress"
+    },
+    {
+     "name": "Artwork 100 pairs, 250 pairs, 500 pairs",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "8/24 dragos working on it"
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Vivian",
+     "active": true,
+     "sample_status": "QC Confirmed YIWU",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-05",
+     "notes": "8/11 Will place first order with her",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Three images attached:\n\n    Product Specification Table (2522x728 pixels): Quote details for EC-1001A Sugar PE Bag ear plugs with two variants - Orange PU Foam ear plugs in PE plastic bag ($0.0215/unit, 2M units, $43,000 total, 400pairs/PE bag) and same ear plugs in regular box with customized 1/2 color ($0.023/unit, 2M units, $46,000 total, 250pairs/box). Both meet CE:EN352-2:2020 SNR:38dB standards. Packaging: 0.66x0.42x0.42m cartons, 500 cartons, 58.21kg weight.\n    \n    WhatsApp Screenshot (1070x170 pixels): Message from Chaim Setton confirming deposit will be sent to Vivian this week for ear plugs order.\n    \n    Pack Size Table (417x218 pixels): New pack sizes shared to Vivian showing three options - 100 pairs (750 units), 250 pairs (3000 units), and 500 pairs (500 units).\n\nKey dependency: Deposit payment to Vivian scheduled for this week (as of Aug 11, 2026)."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Jeniffer",
+     "active": true,
+     "sample_status": "QC Confirmed YIWU",
+     "quote_status": "Requested",
+     "last_communication": "2026-08-05",
+     "notes": "8/5 Told her target price $4.10",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "PDF quotation document titled \"Jennifer quote earplug 08052026.pdf\" from Eastragon International Trade Co., Ltd. (Jennifer Wu). Key Points: Quotation for SA-7-5 Foam Earplugs (ANSI NRR 31dB) with two pricing options: $6.11/box (with window) or $6.03/box (without window). Quantity: 5000 boxes, 200 pairs per box. Packaging includes individual opp bags with 1-color design. Lead time: 20-25 work days after payment and artwork confirmation. Price valid for 30 days (from Aug 4, 2026). The document includes product images showing display boxes and individual packaging with orange foam earplugs."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Grace",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-06",
+     "notes": "8/5 asked her to recheck the price",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "1 image attachment (image.png, 835x379 pixels) - Screenshot of messaging conversation between Haim Setton and supplier Grace Qi. Key points: Supplier Grace Qi has declined further price reduction after double-checking their costing, stating that material and production costs cannot go down and current price is their best possible offer. She requests understanding of their cost situation. This relates to ongoing price negotiation for the ear plugs product. No specific due dates mentioned in attachment. Current collaborators (Haim and Decemie) are appropriate for this negotiation."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Chantelle",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-31",
+     "notes": "7/31 Haim to renegotiate",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image file: Chantelle earplug quote.png - Pricing quote for 13X24 PU earplugs. Key details: $3.12 per box (100 pairs), $0.03 per pair, 5000 qty per box, $3.15 set per unit cost. Material: PU (Polyurethane). Quote received and pending price negotiation."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Sian/Daisy",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-22",
+     "notes": "7/31 Haim needs to negotiate; It's been a week since last message",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image: Product quote from Jiangyin Sian Plastic Protech Co., Ltd.\n\nContact: Daisy He (sales3@cnsian.com, +8615358967615)\n\nProduct: Soft PU foam earplugs (SNR 38DB/NRR31db, 13*24mm)\nColors available: yellow, orange, blue, pink, black, purple, red, etc.\n\nThree pricing options quoted (FOB Shanghai):\n\n    3000 sets (200 pairs/custom paper box): $19,500\n    4000 sets (100 pairs/plastic bottle, blue): $11,620  \n    4000 sets (100 pairs/plastic bottle, green): $13,220\n\nAll options include custom outer carton fees. Total quantity available: 1,000,000 pairs."
+      }
+     ],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "ironing-board",
+   "name": "Ironing Board",
+   "product_link": "",
+   "spec_sheet": "",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": false,
+     "assignee": "",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": false,
+     "assignee": "",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Penny",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "9/2 - Sent Sample",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY B",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY C",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY D",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY E",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY F",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY G",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "rechargeable-silica-gel",
+   "name": "Rechargeable Silica Gel",
+   "product_link": "https://www.amazon.com/TUXIYA-Rechargeable-Desiccant-Indicating-Absorbers/dp/B0FQJ5XF7H/ref=sr_1_5?",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/13NspQGrhvWTVh9isAbFsKvZr8b42Q0ninsRjCLK4WEg/edit?gid=75211176#gid=75211176",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Will do this product after container Silicia Gel",
+     "done": false,
+     "assignee": "",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Oliver",
+     "active": true,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-31",
+     "notes": "08/03 Price is very high, will follow up on Tuesday Night",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "PDF file: \"Rechargeable oliver quote.pdf\" - Quote document from supplier (FYD company). Contains product specifications for rechargeable silica gel packets in orange fabric with blue moisture indicators. Multiple sizes shown: 3.5\", 5.1\" width, and 4.7\" x 5.9\" dimensions. Includes images of manufacturing facilities, production equipment, quality control laboratory, warehouse storage with packaged inventory, and fabric color options available. This appears to be a supplier quote/capability document related to the task notes indicating price negotiations are needed (Quote Status: Received need to Negotiate)."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Sabrina/Mia",
+     "active": true,
+     "sample_status": "In transit to Yiwu",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-31",
+     "notes": "08/03 price is getting somewhere, when samples arrive in Yiwu we will send one here",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Robin",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-24",
+     "notes": "08/03 Waiting on Yuki to send them samples once its cleared from customs",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Tina",
+     "active": true,
+     "sample_status": "Requested",
+     "quote_status": "Requested",
+     "last_communication": "2026-07-31",
+     "notes": "08/03 - Lets set a call for today",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Two quote-related images:\n\n    Screenshot of pricing discussion - Haim Setton commenting that the price is above market and offering reasonable pricing to work with\n    Pricing table and product image - Shows pricing structure for rechargeable silica gel desiccant packs in various configurations (6/12/24 packs, 100g/200g sizes, quantities 100-1000 units, totaling 2400-8400 pieces). Includes product photo of STOWDRY branded rechargeable desiccant packs in navy, black, and teal colors.\n"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Shandong",
+     "active": true,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-30",
+     "notes": "08/03 Sent an email intro waiting on reply - asked them to add me on Wechat",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image: Email thread screenshot (1878x1118px) showing correspondence with sinchem silica gel supplier. Key points: Initial inquiry from Haim Setton about ordering three different styles of Silica Gel, request to connect on WeChat (+1-917-957-1149), supplier response asking for specifications, follow-up requesting WeChat connection for further discussion. Email dated July 30, 2026. Collaborator: Haim Setton is the primary contact communicating with the supplier."
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Eva",
+     "active": false,
+     "sample_status": "QC Confirmed NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-08-04",
+     "notes": "08/03 Dont see interest moving on",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Amber",
+     "active": false,
+     "sample_status": "Requested",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-31",
+     "notes": "08/03 Dont see interest moving on",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "Rushan",
+     "active": false,
+     "sample_status": "Requested",
+     "quote_status": "Requested",
+     "last_communication": "2026-07-30",
+     "notes": "08/03 -Haven't mentioned this product yet; We're not pushing this with them",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "reflective-safety-vest",
+   "name": "Reflective Safety Vest",
+   "product_link": "https://www.amazon.com/TICONN-Reflective-Safety-Visibility-Standards/dp/B0BFLZ9YWB/ref=zg_bs_g_553620_d_sccl_3/139-0779064-9137413?th=1&psc=1",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1i40R1cC5VNFoHuwPfFeO4e40JIrQdplwpkT1_uVywg0/edit?gid=0#gid=0",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": false,
+     "assignee": "Decemie Cortes",
+     "notes": "Line up for October"
+    },
+    {
+     "name": "Look for Factories",
+     "done": false,
+     "assignee": "Decemie Cortes",
+     "notes": "Line up for October"
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "FTY A",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY B",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY C",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY D",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY E",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY F",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    },
+    {
+     "name": "FTY G",
+     "active": true,
+     "sample_status": "",
+     "quote_status": "",
+     "last_communication": "",
+     "notes": "",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  },
+  {
+   "slug": "toilet-safety-cover",
+   "name": "Toilet Safety Cover",
+   "product_link": "https://www.amazon.com/dp/B09T1Q4FZ8",
+   "spec_sheet": "https://docs.google.com/spreadsheets/d/1vTbSdvzKSdxWw4u4CuZs9d8BtmvNoAkUA_T8NZhAFCk/edit?usp=sharing",
+   "milestones": [
+    {
+     "name": "Buid Spec sheet",
+     "done": true,
+     "assignee": "Decemie Cortes",
+     "notes": ""
+    },
+    {
+     "name": "Look for Factories",
+     "done": true,
+     "assignee": "",
+     "notes": ""
+    },
+    {
+     "name": "Confirm Samples it was shipped to NY",
+     "done": true,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": "UPS Tracking: 1Z8V66V76730907468"
+    },
+    {
+     "name": "ARTWORK adjustment",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    },
+    {
+     "name": "Renegotiate price brownie points",
+     "done": false,
+     "assignee": "haim@everlastingicerx.com",
+     "notes": ""
+    }
+   ],
+   "skus": [],
+   "profitability": [],
+   "factories": [
+    {
+     "name": "Lily",
+     "active": true,
+     "sample_status": "In Transit to NY",
+     "quote_status": "Received need to Negotiate",
+     "last_communication": "2026-07-22",
+     "notes": "8/12 Yuki shipped the samples",
+     "reminders": [],
+     "files": [
+      {
+       "name": "Attachment summary (from Asana)",
+       "url": "",
+       "summary": "Image screenshot (image.png) of messaging conversation with supplier Lily regarding: FOB port location and pricing inquiry, product specifications for 14gsm virgin wood pulp toilet seat covers, and quantity requirements discussion. Key collaborator mentioned: Haim Setton"
+      }
+     ],
+     "log": []
+    },
+    {
+     "name": "Bonnie",
+     "active": false,
+     "sample_status": "Not Requested Yet",
+     "quote_status": "Not Requested Waiting on Samples",
+     "last_communication": "2026-07-07",
+     "notes": "7/31 not replying on the follow ups",
+     "reminders": [],
+     "files": [],
+     "log": []
+    }
+   ]
+  }
+ ]
+}
